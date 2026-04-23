@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Feedback Form</title>
+    <link rel="stylesheet" href="Task.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Feedback Form – Aditya Sir Classes</h2>
+
+    <form>
+
+        <!-- Student Details -->
+        <label>Student Name</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Course</label>
+        <select required>
+            <option value="">Select Course</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>Bootstrap</option>
+            <option>Angular</option>
+        </select>
+
+        <!-- Dropdown -->
+        <label>Which subject did you like the most?</label>
+        <select required>
+            <option value="">Select Subject</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>Bootstrap</option>
+            <option>Angular</option>
+        </select>
+
+        <!-- Rating -->
+        <label>How would you rate Aditya Sir’s teaching?</label>
+        <div class="radio-group">
+            <input type="radio" name="rating" required> ⭐
+            <input type="radio" name="rating"> ⭐⭐
+            <input type="radio" name="rating"> ⭐⭐⭐
+            <br><br>
+            <input type="radio" name="rating"> ⭐⭐⭐⭐
+            <input type="radio" name="rating"> ⭐⭐⭐⭐⭐
+            <br>
+        </div>
+
+        <!-- Checkbox -->
+        <label>What did you like about the teaching?</label>
+        <div class="checkbox-group">
+            <input type="checkbox"> Clear Explanation
+            <input type="checkbox"> Practical Examples
+            <input type="checkbox"> Friendly Nature
+            <br><br>
+            <input type="checkbox"> Real-time Projects
+            <input type="checkbox"> Doubt Solving
+        </div>
+
+        <!-- Understanding -->
+        <label>Are you able to understand concepts clearly?</label>
+        <div class="radio-group">
+            <input type="radio" name="understand" required> Yes
+            <input type="radio" name="understand"> No
+            <input type="radio" name="understand"> Sometimes
+        </div>
+
+        <!-- Suggestions -->
+        <label>Suggestions for improvement</label>
+        <textarea rows="4"></textarea>
+
+        <!-- Recommend -->
+        <label>Would you recommend this class to others?</label>
+        <div class="radio-group">
+            <input type="radio" name="recommend" required> Yes
+            <input type="radio" name="recommend"> No
+        </div>
+
+        <!-- Terms -->
+        <div class="checkbox-group" style="margin-top:10px;">
+            <input type="checkbox" required> I confirm this feedback is genuine
+        </div>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <button type="submit" class="btn submit-btn">Submit</button>
+            <button type="reset" class="btn reset-btn">Reset</button>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>

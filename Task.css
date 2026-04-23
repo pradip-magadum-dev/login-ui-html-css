@@ -1,0 +1,81 @@
+    body {
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #9face6);
+        }
+
+        .container {
+            width: 500px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 12px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            
+        }
+
+        textarea {
+            
+            resize: none;
+        }
+
+        .radio-group, .checkbox-group {
+            margin-top: 5px;
+        }
+
+        .radio-group input,
+        .checkbox-group input {
+            width: auto;
+            margin-right: 6px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .btn {
+            width: 48%;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            color: white;
+            font-size: 15px;
+        }
+
+        .submit-btn {
+            background: #2848a7;
+        }
+
+        .reset-btn {
+            background: #dcdc35;
+        }
+
+        .submit-btn:hover {
+            background: #218838;
+        }
+
+        .reset-btn:hover {
+            background: #c82333;
+        }
